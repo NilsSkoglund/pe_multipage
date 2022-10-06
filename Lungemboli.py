@@ -97,7 +97,7 @@ st.session_state["total_score_pe"] =\
 f.pe_display(st.session_state["total_score_pe"])
 
 
-html_låg = 'Om Låg --> <a href="http://localhost:8501/PERC" target="_self">PERC</a>'
+html_låg = 'Om Låg --> <a href="/PERC" target="_self">PERC</a>'
 st.markdown(html_låg, unsafe_allow_html=True)
 
 html_låg_perc = 'Om Låg och PERC bruten --> <a href="http://localhost:8501/Ddimer" target="_self">D-dimer</a>'
