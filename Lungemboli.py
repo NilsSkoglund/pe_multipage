@@ -4,7 +4,7 @@ from functions import f
 from streamlit_extras.switch_page_button import switch_page
 
 
-
+st.write("hej")
 ############################### Variables #####################################
 
 # Initialize variables for Wells' Criteria for PE
